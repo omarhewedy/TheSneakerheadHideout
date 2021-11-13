@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+ header {
+     background: black;
+ }
+ header: after{
+     content: "";
+     display: table
+     clear: both;
+ }
+ section{
+     background: black;
+ }
+ footer{
+     background: black;
+ }
+ nav{
+     float:inline-end;
+ }
+ nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+
+ }
+ nav ul > li{
+     display: inline-block;
+     margin-left: 80px;
+     padding-top: 25px;
+     position: relative;
+ }
+ nav ul > li > a{
+     color:blue;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 16px;
+
+ }
+ nav ul > li > a:hover{
+     color:blueviolet;
+ }
+ nav ul > li > a:before{
+     content:"";
+     display: block;
+     height: 5px;
+     width: 100%;
+     background-color: blueviolet;
+     position: absolute;
+     top: 0;
+     width: 0%;
+
+     transition: all ease-in-out 200ms;
+ }
+ nav ul > li > a:hover::before{
+     width: 100%;
+ }
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ #section1{
+     height: 800px;
+     background:grey;
+
+ }
+ #section2{
+     height: 600px;
+     background: rgb(34, 33, 33);
+    
+ }
+ #section3{
+     background: rgb(44, 42, 42);
+
+
+ }
+ #section1 h1{
+        color: black;
+ }
+ #section2 h1{
+     color: palevioletred;
+
+ }
+ #section2 h2{
+     color: white;
+ }
+ #section3 h1{
+     color: palevioletred;
+ }
+ #section3 h2{
+     color: white;
+ }
+
+ table{
+     background-color: rgb(44, 42, 42);
+ }
+ table.center{
+     width: 70%;
+     margin-left: 15%;
+     margin-right: 15%;
+ }
+ td{
+     padding: 50px;
+ }

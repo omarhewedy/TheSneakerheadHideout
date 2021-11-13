@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> The Sneakerhead Hideout</title>
+<link rel="stylesheet" href="mystyle.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color:black;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+    }
+     header {
+         background: black;
+     }
+     header: after{
+         content: "";
+         display: table
+         clear: both;
+     }
+     section{
+         background: black;
+     }
+     footer{
+         background: black;
+     }
+     nav{
+         float:inline-end;
+     }
+     nav ul{
+         margin: 0;
+         padding: 0;
+         list-style: none;
+
+     }
+     nav ul > li{
+         display: inline-block;
+         margin-left: 80px;
+         padding-top: 25px;
+         position: relative;
+     }
+     nav ul > li > a{
+         color:blue;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 16px;
+
+     }
+     nav ul > li > a:hover{
+         color:blueviolet;
+     }
+     nav ul > li > a:before{
+         content:"";
+         display: block;
+         height: 5px;
+         width: 100%;
+         background-color: blueviolet;
+         position: absolute;
+         top: 0;
+         width: 0%;
+
+         transition: all ease-in-out 200ms;
+     }
+     nav ul > li > a:hover::before{
+         width: 100%;
+     }
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     #section1{
+         height: 800px;
+         background:grey;
+
+     }
+     #section2{
+         height: 600px;
+         background: rgb(34, 33, 33);
+        
+     }
+     #section3{
+         background: rgb(44, 42, 42);
+
+
+     }
+     #section1 h1{
+            color: black;
+     }
+     #section2 h1{
+         color: palevioletred;
+    
+     }
+     #section2 h2{
+         color: white;
+     }
+     #section3 h1{
+         color: palevioletred;
+     }
+     #section3 h2{
+         color: white;
+     }
+
+     table{
+         background-color: rgb(44, 42, 42);
+     }
+     table.center{
+         width: 70%;
+         margin-left: 15%;
+         margin-right: 15%;
+     }
+     td{
+         padding: 50px;
+     }
+
+
+</style>
+<meta charset="UTF-8">
+<meta name="description" content="This website is for sneakerheads who want to stay up to date on sneaker releases.">
+<meta name="author" content="Omar Hewedy">
+</head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#section1">Home</a></li>
+                        <li><a href="#section2">About Us</a></li>
+                        <li><a href="#section3">Sneaker Releases</a></li> 
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+        <div id="section1">
+            <h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <bold><center>The SneakerHead Hideout</center></bold>
+                <br>
+                <br>
+                <center><img src="Sneakerlogo.jpeg" width="50%" alt="SneakerHead Logo"</center>
+
+            </h1>
+        </div>
+        <div id="section2">
+            <h1>
+                <br>
+                <center>About Us</center>
+            </h1>
+            <br>
+
+            <h2><center>
+                    We would like to welcome you to the SneakerHead Hideout. Are you a 
+                    sneakerhead who likes to stay up to date on releases without having 
+                    to do much research? You have come to the right place. The SneakerHead
+                    Hideouts goal is to provide up to date information about upcoming sneakers.
+                    Our goal is to make you're life easier by having to go to one website to find
+                    all the information you would like to know without the hassle. We are here to
+                    provide to you the upcoming sneakers, their release date, and the retail price.
+                    Also, a great way for beginners in the reselling business to know what sneakers
+                    to get.As always will keep up to date as releases are Announced</h1></center>
+        </div>
+        <div id="section3">
+            <h1>
+            <br>
+            <bold><center>Sneaker Releases</center></bold>
+            </h1>
+            <h2>
+                <u><center>February</center></u>
+            </h2>
+            <br>
+
+            <table class="center">
+                <tr>
+                    <td><img src="Sneaker4.jpeg" width="75%" alt="shoe"><p>Name: Yeezy 350 v2 "Marsh"</p>
+                    <p>Release Date: February 1th, 2020</p>
+                    <p>Retail: 220 USD</p>
+                    <p>Where: Yeezy Supply </p></td>
+                    <td><img src="Sneaker1.jpeg" width="75%" alt="shoe"><p>Name: Puma Rs-x "Sonic the Hedgehog"</p>
+                    <p>Release Date: February 7th, 2020</p>
+                    <p>Retail: 120 USD</p>
+                    <p>Where: Puma</p></td>
+
+                </tr>
+                <tr>
+                    <td><img src="Sneaker2.jpeg" width="75%" alt="shoe"><p>Name: Yeezy 700 v3 "Alvah"</p>
+                    <p>Release Date: February 15th, 2020</p>
+                    <p>Retail: 200 USD</p>
+                    <p>Where: Yeezy Supply, Adidas </p></td>
+                    <td><img src="Sneaker3.jpeg" width="75%" alt="shoe"><p>Name: Air Jordan 1 High OG "Pine Green"</p>
+                    <p>Release Date: February 29th, 2020</p>
+                    <p>Retail: 170 USD</p>
+                    <p>Where: Nike </p></td>
+
+                    
+                </tr>
+
+            </table>
+
+        </div>
+        
+       
+    </body>
+</html>
